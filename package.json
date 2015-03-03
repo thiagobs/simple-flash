@@ -1,0 +1,27 @@
+{
+  "name": "simple-flash",
+  "version": "0.1.0",
+  "description": "Flash messages made simple for Express",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagobs/simple-flash.git"
+  },
+  "keywords": [
+    "flash",
+    "message",
+    "express"
+  ],
+  "author": {
+    "name": "Thiago B. da Silva",
+    "email": "thiago@agenciadeinternet.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thiagobs/simple-flash/issues"
+  },
+  "homepage": "https://github.com/thiagobs/simple-flash"
+}
