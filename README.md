@@ -41,7 +41,7 @@ For render messages in view, simpliest use the new local function `flash()` to r
 
 ## Tests
 
-Firt install dev dependencies:
+First install dev dependencies:
 
 ``` sh
 npm install --dev
