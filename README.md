@@ -38,3 +38,21 @@ For render messages in view, simpliest use the new local function `flash()` to r
     div(class="alert-#{message.type}") #{message.message}
 - }
 ```
+
+## Tests
+
+Firt install dev dependencies:
+
+``` sh
+npm install --dev
+```
+
+Run tests:
+
+``` sh
+npm test
+```
+
+## License
+
+[MIT License](http://opensource.org/licenses/MIT)
