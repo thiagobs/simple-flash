@@ -1,14 +1,14 @@
 {
   "name": "simple-flash",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Flash messages made simple for Express",
   "main": "index.js",
-  "scripts": {
-    "test": "mocha"
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/thiagobs/simple-flash.git"
+  },
+  "scripts": {
+    "test": "mocha"
   },
   "keywords": [
     "flash",
@@ -23,5 +23,12 @@
   "bugs": {
     "url": "https://github.com/thiagobs/simple-flash/issues"
   },
-  "homepage": "https://github.com/thiagobs/simple-flash"
+  "homepage": "https://github.com/thiagobs/simple-flash",
+  "devDependencies": {
+    "express": "^4.12.2",
+    "express-session": "^1.10.3",
+    "mocha": "^2.1.0",
+    "request": "^2.53.0",
+    "should": "^5.0.1"
+  }
 }
