@@ -1,6 +1,13 @@
 # simple-flash
 Simple Flash is a very simple way to set flash messages in Express routes.
 
+<p>
+	<a href="https://www.npmjs.com/package/simple-flash">
+		<img src="https://img.shields.io/npm/v/simple-flash.svg" />
+		<img src="https://img.shields.io/npm/dm/simple-flash.svg" />
+	</a>
+</p>
+
 ## Installation
 
 ``` sh

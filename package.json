@@ -1,6 +1,6 @@
 {
   "name": "simple-flash",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Flash messages made simple for Express",
   "main": "index.js",
   "repository": {
