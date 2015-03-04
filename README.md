@@ -39,12 +39,11 @@ For render messages in view, simpliest use the new local function `flash()` to r
 - }
 ```
 
-## Tests
-
-First install dev dependencies:
+## For development and tests:
 
 ``` sh
-npm install --dev
+git clone https://github.com/thiagobs/simple-flash.git && cd simple-flash
+npm install
 ```
 
 Run tests:
