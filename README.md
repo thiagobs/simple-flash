@@ -38,12 +38,24 @@ app.post('/foo', function(req, res){
 })
 ```
 
-For render messages in view, simpliest use the new local function `flash()` to return messages array:
+For render messages in view, simpliest use the new local function `flash()` to return messages array.
+
+Jade example:
 
 ``` jade
-- for(message in flash()){
-    div(class="alert-#{message.type}") #{message.message}
-- }
+for message in flash()
+	.row
+		.col-xs-12
+			div(class="alert alert-#{message.type}") #{message.message}
+```
+
+ Or:
+``` jade
+- flash().forEach(function(message){
+	.row
+		.col-xs-12
+			div(class="alert alert-#{message.type}") #{message.message}
+- })
 ```
 
 ## For development and tests:
